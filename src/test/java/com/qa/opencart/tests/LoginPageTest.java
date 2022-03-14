@@ -5,8 +5,10 @@ import org.testng.annotations.Test;
 
 import com.qa.opencart.utils.Constants;
 
-public class LoginPageTest extends BaseTest{
+import io.qameta.allure.Description;
 
+public class LoginPageTest extends BaseTest{
+    @Description("Login Page Title Test")
 	@Test
 	public void loginPageTitleTest() {
 		String title = loginPage.getLoginPageTitle();
