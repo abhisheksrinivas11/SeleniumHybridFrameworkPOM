@@ -6,11 +6,11 @@ import java.util.List;
 public class Constants {
 	
 	public static final String LOGIN_PAGE_TITLE = "Account Login";
-	public static final String LOGIN_PAGE_URL_FRACTION = "https://demo.opencart.com/index.php?route=account/login";
+	public static final String LOGIN_PAGE_URL_FRACTION = "https://naveenautomationlabs.com/opencart/index.php?route=account/login";
 	public static final int DEFAULT_TIME_OUT = 3;
 	public static final String ACCOUNT_PAGE_TITLE = "My Account";
 	public static final String ACCOUNT_PAGE_URL_FRACTION = "route=account/account";
-	public static final String ACCOUNT_PAGE_HEADER = "Your Store";
+	public static final String ACCOUNT_PAGE_HEADER = "";
 	
 	public static final List<String> ACCOUNT_PAGE_SECTION_LIST = 
 			                            Arrays.asList("My Account",

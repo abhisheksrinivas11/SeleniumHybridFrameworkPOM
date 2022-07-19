@@ -70,7 +70,6 @@ public class AccountsPageTest extends BaseTest {
 	public Object[][] productSelectData() {
 		return new Object[][] {
 			{"Macbook", "MacBook Pro"},
-			{"iMac", "iMac"},
 			{"Apple", "Apple Cinema 30\""}
 		};
 	}
